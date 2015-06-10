@@ -12,7 +12,9 @@ Display Your Instagram Profile into WordPress Site
 
 == Description ==
 
-Display your Instagram Profile and Gallery into your WordPress Site
+This Instagram plugin is an Instagram widget and shortcode which allows you to display photos from an account on your website. It’s responsive, flexible, easy to use Instagram widget with most needed features.
+
+
 
 Using **[ISW id=xx]** (xx is id) shortcode, you can publish Instagram provide widget in any Page or Post in your WordPress sites.
 
@@ -20,7 +22,7 @@ Using **[ISW id=xx]** (xx is id) shortcode, you can publish Instagram provide wi
 
 
 > **Plugin Features**
-> *
+> 
 > * Responsive Instagram Gallery 
 > * Use Own Client ID
 > * Multiple Shortcode
@@ -66,14 +68,16 @@ You can customized height and widht of instagram panel.
 > * Hide/Show Scroll
 >
 
+### Try Instagram Shortcode And Widget Pro:
+
+
 > ### Try Instagram Shortcode And Widget Pro Demo: [Live Demo](http://demo.weblizar.com/instagram-shortcode-and-widget-pro/)
 >
 > ### Try Photo Video Link Gallery Pro Admin: [Admin Demo](http://demo.weblizar.com/instagram-shortcode-and-widget-pro-admin-demo/wp-admin)
 >
 >### Upgrade To: [Photo Video Link Gallery Pro](https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/)
 >
->
->
+
 
 
 If you have any question contact us at here: [Plugin Support Forum ](http://wordpress.org/support/plugin/instagram-shortcode-and-widget) 
