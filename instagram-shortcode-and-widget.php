@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Instagram Shortcode And Widget
- * Version: 1.0
+ * Version: 1.1
  * Description: A jQuery responsive Instagram widget. The widget blends well with the design of your site because you can change its color.You can display the information from your account or by any hashtag.
  * Author: Weblizar
- * Author URI: http://weblizar.com/plugins/photo-video-link-gallery-pro/
- * Plugin URI: http://weblizar.com/plugins/photo-video-link-gallery-pro/
+ * Author URI: https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/
+ * Plugin URI: https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/
  */
  
 /**
@@ -195,6 +195,10 @@ class ISW {
 		
 		// Go for a widget
 		add_meta_box(__('Activate Instagram Widget', 'ISW_TEXT_DOMAIN') , __('Activate Instagram Widget', 'ISW_TEXT_DOMAIN'), array(&$this,'ISW_use_widget_meta_box'), 'isw_shortcode', 'side', 'low');
+		
+		// Rate Us Meta Box
+		add_meta_box(__('Get Instagram Shortcode and Widget Pro Only In $6', 'ISW_TEXT_DOMAIN') , __('Get Instagram Shortcode and Widget Pro Only In $6', 'ISW_TEXT_DOMAIN'), array(&$this,'ISW_upgrade_to_pro_image_meta_box_function'), 'isw_shortcode', 'side', 'low');
+		
 		// Rate Us Meta Box
 		add_meta_box(__('Show us some love, Rate Us', 'ISW_TEXT_DOMAIN') , __('Show us some love, Rate Us', 'ISW_TEXT_DOMAIN'), array(&$this,'ISW_Rate_us_meta_box_function'), 'isw_shortcode', 'side', 'low');
 		// Upgrade To Pro Version Meta Box
@@ -227,6 +231,17 @@ class ISW {
 	<?php 
 	}
 	
+	// Upgarde To Pro Box Function
+	function ISW_upgrade_to_pro_image_meta_box_function(){
+		?>
+		<div>
+		<a href="https://wordpress.org/plugins/instagram-shortcode-and-widget/" target="_blank" > <img src="<?php echo  ISW_PLUGIN_URL.'images/instagram-shortcode-pro.png'; ?>" alt="" style="width:100%;height:auto"/></a>
+			<div class="upgrade-to-pro" style="text-align:center;margin-bottom:10px;">
+			<a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new" class="button button-primary button-hero">Tyr to Pro Now</a>
+		</div>	
+		</div>
+		<?php 
+	}
 	// Rate Us Meta Box Function
 	function ISW_Rate_us_meta_box_function() { ?>
 		<style>
@@ -241,7 +256,7 @@ class ISW {
 		</style>
 		<div align="center">
 			<p>Please Review & Rate Us On WordPress</p>
-			<a class="upgrade-to-pro-demo .fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="http://wordpress.org/plugins/responsive-portfolio/" target="_blank">
+			<a class="upgrade-to-pro-demo .fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="https://wordpress.org/plugins/instagram-shortcode-and-widget/" target="_blank">
 				<span class="dashicons dashicons-star-filled"></span>
 				<span class="dashicons dashicons-star-filled"></span>
 				<span class="dashicons dashicons-star-filled"></span>

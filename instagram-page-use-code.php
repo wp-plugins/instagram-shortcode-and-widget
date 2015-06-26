@@ -67,7 +67,7 @@ function Instagram_shortcode_page( $Id ) {
 		#ISW_container_<?php echo $ISW_Id; ?>{
 			margin-bottom:40px;
 		}
-		a {
+		ISW_container_<?php echo $ISW_Id; ?> a {
 			border-bottom: none !important;
 		}
 	 </style>

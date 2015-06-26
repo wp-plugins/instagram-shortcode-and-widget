@@ -1,10 +1,10 @@
 === Instagram ===
 Contributors: weblizar
-Donate link: http://www.weblizar.com/
+Donate link: https://www.weblizar.com/
 Tags: Custom Instagram Feed, instagram, Instagram account, Instagram feed, Instagram photos, Instagram plugin, Instagram posts, Instagram stream, Instagram wall, mobile Instagram, responsive Instagram, gallery, instagram gallery,  responsive Instagram gallery, instagram plugin, instagram shortcode, instagram widget, jquery, css3,  
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,14 +70,14 @@ You can customized height and widht of instagram panel.
 
 ### Try Instagram Shortcode And Widget Pro:
 
-
+>
 > ### Try Instagram Shortcode And Widget Pro Demo: [Live Demo](http://demo.weblizar.com/instagram-shortcode-and-widget-pro/)
 >
-> ### Try Photo Video Link Gallery Pro Admin: [Admin Demo](http://demo.weblizar.com/instagram-shortcode-and-widget-pro-admin-demo/wp-admin)
+> ### Try Instagram Shortcode And Widget Admin: [Admin Demo](http://demo.weblizar.com/instagram-shortcode-and-widget-pro-admin-demo/wp-admin)
 >
->### Upgrade To: [Photo Video Link Gallery Pro](https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/)
+> ### Upgrade To: [Instagram Shortcode And Widget Pro](https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/)
 >
-
+>
 
 
 If you have any question contact us at here: [Plugin Support Forum ](http://wordpress.org/support/plugin/instagram-shortcode-and-widget) 
@@ -102,6 +102,10 @@ If you have any question contact us at here: [Plugin Support Forum ](http://word
 == Changelog ==
 
 For more information, see Weblizar(http://wwww.weblizar.com/).
+
+= Version 1.1 26-June-2015 =
+
+* Resolve Anchor tag style conflict issue.
 
 = Version 1.0 10-June-2015 =
 

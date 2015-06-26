@@ -219,6 +219,14 @@ label.custom-option {
 									<label for="radio-lang-2">Color 2</label>
 								</div>
 							</div>
+							<div class="col-sm-4 col-md-3">
+								<div class="radio">
+									
+									<label for="radio-lang-3"></label>
+								</div>
+							</div>
+							<p><b>Upgrade to pro for get Unlimited Colour Scheme for Panel and button , </b> <a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new">check demo</a></p>
+		
 						</div>
 						
 						<!-- background color -->
@@ -251,15 +259,33 @@ label.custom-option {
 									<label for="radio-lang-3">Transparent</label>
 								</div>
 							</div>
-						</div>
+							<p><b>Upgrade to pro for get Unlimited Colour Scheme for Background , </b> <a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new">check demo</a></p>
+		
+							</div>
 						
 						<!-- Hashtag -->
-						<div class="form-group" style="display:none">
+						<div class="form-group" >
 							<label for="Hashtag" class="control-label">Hashtag </label>
-							<div class="has-feedback">
-								<input type="text" class="form-control" id="ISW_Hashtag" name="ISW_Hashtag" value="<?php echo $ISW_Hashtag;?>"/>
-								<span class="fa fa-tag form-control-feedback" aria-hidden="true"></span>
+							<div class="col-sm-4 col-md-3">
+								<div class="radio">
+									
+									<label for="radio-lang-3"></label>
+								</div>
 							</div>
+							<div class="col-sm-4 col-md-3">
+								<div class="radio">
+									
+									<label for="radio-lang-3"></label>
+								</div>
+							</div>
+							<div class="col-sm-4 col-md-3">
+								<div class="radio">
+									
+									<label for="radio-lang-3"></label>
+								</div>
+							</div>
+							<p><b>Upgrade to pro for get Hashtag Fetaure in plugin , </b> <a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new">check demo</a></p>
+		
 						</div>
 					</form>
 				</div>
@@ -268,12 +294,35 @@ label.custom-option {
 				
 			<div class="panel-footer">
 				<span class="required-field">*</span> - required field
+				<div style="float:right">
+				<style>
+				.fag-rate-us {
+				  color: #F8504B !important;
+				  margin-bottom:5px;
+				}
+				.fag-rate-us span.dashicons {
+				  width: 30px;
+				  height: 30px;
+				  margin-top: -4px;
+				}
+				</style>
+				
 			</div>
 		</div>
 			
 		<!-- END Registration form -->
-		
+		<div>
+		<h3>If you like our plugin then please show us some Love, Rate Us On WordPress : <h3> 
+					<a class="upgrade-to-pro-demo fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="https://wordpress.org/plugins/instagram-shortcode-and-widget/" target="_blank">
+						<span class="dashicons dashicons-star-filled"></span>
+						<span class="dashicons dashicons-star-filled"></span>
+						<span class="dashicons dashicons-star-filled"></span>
+						<span class="dashicons dashicons-star-filled"></span>
+						<span class="dashicons dashicons-star-filled"></span>
+					</a>
 		</div>
+		</div>
+		
 	</article>
 		
 	<div class="clearfix"></div>
