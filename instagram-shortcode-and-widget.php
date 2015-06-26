@@ -237,7 +237,7 @@ class ISW {
 		<div>
 		<a href="https://wordpress.org/plugins/instagram-shortcode-and-widget/" target="_blank" > <img src="<?php echo  ISW_PLUGIN_URL.'images/instagram-shortcode-pro.png'; ?>" alt="" style="width:100%;height:auto"/></a>
 			<div class="upgrade-to-pro" style="text-align:center;margin-bottom:10px;">
-			<a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new" class="button button-primary button-hero">Tyr to Pro Now</a>
+			<a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new" class="button button-primary button-hero">Try To Pro Now</a>
 		</div>	
 		</div>
 		<?php 
