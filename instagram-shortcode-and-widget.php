@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Instagram Shortcode And Widget
- * Version: 1.1
+ * Version: 1.2
  * Description: A jQuery responsive Instagram widget. The widget blends well with the design of your site because you can change its color.You can display the information from your account or by any hashtag.
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/
@@ -341,6 +341,7 @@ class ISW {
 		$ISW_Responsive			= $_POST['ISW_Responsive'];
 		$ISW_Panel_button_color	= $_POST['ISW_Panel_button_color'];
 		$ISW_bg_color           = $_POST['ISW_bg_color'];
+		$ISW_Custom_CSS         = stripslashes($_POST['ISW_Custom_CSS']);
 		
 
 		$ISW_Settings_Array = serialize( array(
@@ -355,7 +356,8 @@ class ISW {
 			'ISW_Height'         		=> $ISW_Height,
 			'ISW_Responsive'         	=> $ISW_Responsive,
 			'ISW_Panel_button_color'	=> $ISW_Panel_button_color,
-			'ISW_bg_color'				=> $ISW_bg_color
+			'ISW_bg_color'				=> $ISW_bg_color,
+			'ISW_Custom_CSS'			=> $ISW_Custom_CSS
 		) );
 
 		$ISW_Shortcode_Settings = "ISW_Shortcode_Settings_".$PostID;

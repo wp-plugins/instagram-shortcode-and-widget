@@ -18,6 +18,7 @@ if($ISW_Shortcode_Settings['ISW_Client_Id'] ) {
 	$ISW_Responsive         = $ISW_Shortcode_Settings['ISW_Responsive'];
 	$ISW_Panel_button_color	= $ISW_Shortcode_Settings['ISW_Panel_button_color'];
 	$ISW_bg_color			= $ISW_Shortcode_Settings['ISW_bg_color'];
+	$ISW_Custom_CSS			= $ISW_Shortcode_Settings['ISW_Custom_CSS'];
 }
 else{
 	$ISW_Shortcode_Settings = unserialize(get_option( 'ISW_Settings' ));
@@ -34,6 +35,7 @@ else{
 		$ISW_Responsive         = $ISW_Shortcode_Settings['ISW_Responsive'];
 		$ISW_Panel_button_color	= $ISW_Shortcode_Settings['ISW_Panel_button_color'];
 		$ISW_bg_color			= $ISW_Shortcode_Settings['ISW_bg_color'];
+		$ISW_Custom_CSS			= $ISW_Shortcode_Settings['ISW_Custom_CSS'];
 	}
 }
 ?>
@@ -262,6 +264,17 @@ label.custom-option {
 							<p><b>Upgrade to pro for get Unlimited Colour Scheme for Background , </b> <a href="https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/" target="_new">check demo</a></p>
 		
 							</div>
+							
+						<!-- Custom Css -->
+					    <?php if(!isset($ISW_Custom_CSS)) $ISW_Custom_CSS = ""; ?> 
+						<div class="form-group">
+							<label for="inputWithLeftButton-2" class="control-label">Custom Css</label>
+							<div class="has-feedback">
+								<textarea id="ISW_Custom_CSS" name="ISW_Custom_CSS" type="text" class="" style="width:100%"><?php echo $ISW_Custom_CSS; ?></textarea>
+					<p>Enter any custom css you want to apply on this Plugin.
+Note: Please Do Not Enter <strong>&lt;Style&gt; &lt;/Style&gt; </strong> Tag here only add class.</p>
+							</div>
+						</div>	
 						
 						<!-- Hashtag -->
 						<div class="form-group" >

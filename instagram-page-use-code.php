@@ -36,6 +36,7 @@ function Instagram_shortcode_page( $Id ) {
 			$ISW_Responsive         = $ISW_Shortcode_Settings['ISW_Responsive'];
 			$ISW_Panel_button_color	= $ISW_Shortcode_Settings['ISW_Panel_button_color'];
 			$ISW_bg_color			= $ISW_Shortcode_Settings['ISW_bg_color'];
+			$ISW_Custom_CSS			= $ISW_Shortcode_Settings['ISW_Custom_CSS'];
 			$ISW_Text_color			= "#fff";
 			$ISW_Ban_by_username	= "";
 		}
@@ -70,6 +71,7 @@ function Instagram_shortcode_page( $Id ) {
 		ISW_container_<?php echo $ISW_Id; ?> a {
 			border-bottom: none !important;
 		}
+		<?php echo $ISW_Custom_CSS; ?>
 	 </style>
 	
 	<div id="ISW_container_<?php echo $ISW_Id; ?>" style="widht:<?php echo $ISW_Width; ?>">
