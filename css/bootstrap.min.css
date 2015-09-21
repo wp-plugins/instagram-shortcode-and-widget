@@ -8,25 +8,8 @@
  * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=2bf08c05a7e7cc981d14)
  * Config saved to config.json and https://gist.github.com/2bf08c05a7e7cc981d14
  *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */
- 
- html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%}
-body {
-    margin: 0;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block;
-}
-audio, canvas, progress, video {
-    display: inline-block;
-    vertical-align: baseline;
-}
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
+
+
 [hidden], template {
     display: none;
 }

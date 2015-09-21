@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Instagram Shortcode And Widget
- * Version: 1.2
+ * Version: 1.4
  * Description: A jQuery responsive Instagram widget. The widget blends well with the design of your site because you can change its color.You can display the information from your account or by any hashtag.
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/instagram-shortcode-and-widget-pro/
